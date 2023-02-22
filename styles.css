@@ -1,0 +1,174 @@
+body{
+    font-style: roboto;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    display: flex;
+    flex: 1;
+    max-width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+.logo{
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+.links{
+    display:flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 36px;
+}
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 96px;
+}
+.content{
+    display: flex;
+    width: 900px;
+    flex-grow: 0px;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    flex-grow: 0px;
+    padding: 50px 0px;
+}
+.title{
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+.text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 32px;
+}
+.image{
+    display: flex;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+
+}
+header .content .image img{
+    height: 300px;
+    border-radius: 150px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+.information{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
+.info-title{
+    width: 800px;
+    display: flex;
+    flex: 0 0 1;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+.info{
+    display: flex;
+    gap: 48px;
+}
+main .information .info .cards img{
+    width: 150px;
+    border-radius: 15px;
+}
+.cards{
+    width: 164px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    background-color: #E5E7EB;
+}
+.quotes{
+    display: flex;
+    width: 800px;
+    flex-grow: 0;
+    flex-direction: column;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 25px;
+    font-weight: 800;
+}
+.last-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+.sign-in{
+    display: flex;
+    width: 900px;
+    flex-grow: 0;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+.invitation{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    color: #F9FAF8;
+    padding: 16px;
+    padding-left: 88px;
+}
+.last-part .sign-in button{
+    margin: auto;
+    border: 1px solid white;
+}
+.call{
+    font-weight: 800;
+    font-size: 24px;
+}
+footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 32px;
+}
